@@ -71,15 +71,8 @@ export interface FutureStation {
                 status: 'Under Construction',
                 locationRole: 'Positioned on Upper East Coast Road / Bedok South Road. Will serve residential and community areas, providing direct TEL access.',
                 features: 'Underground station with island platform, two tracks. Helps complete TEL’s coverage along the east coast.',
-              },
-              {
-                name: 'Marina South',
-                lines: ['TE21'],
-                opening: 'With TEL Stage 5 (around 2026–2027)',
-                status: 'Structurally Complete, Not Open',
-                locationRole: 'Serves the upcoming high-density mixed-use Greater Southern Waterfront.',
-                interestingFact: 'Will open along with surrounding urban development, similar to other stations in new development areas.',
-              },
+              }
+              
         ]
     },
     {
@@ -87,16 +80,24 @@ export interface FutureStation {
         stations: [
             {
                 name: "Founders' Memorial",
-                lines: ['TE18'],
+                lines: ['TE22a'],
                 opening: 'TBC (Expected 2027)',
                 status: 'Under construction',
                 locationRole: 'Located near Bay East Garden, serving as a gateway to the Founders’ Memorial site.',
                 interestingFact: 'This station will provide direct MRT access to the Founders’ Memorial, commemorating Singapore’s early leaders and nation-building journey.',
             },
             {
+                name: 'Marina South',
+                lines: ['TE18'],
+                opening: 'TBC',
+                status: 'Structurally Complete, Not Open',
+                locationRole: 'Serves the upcoming high-density mixed-use Greater Southern Waterfront.',
+                interestingFact: 'Will open along with surrounding urban development, similar to other stations in new development areas.',
+              },
+            {
                 name: 'Mount Pleasant',
                 lines: ['TE9'],
-                opening: 'TBC (When demand increases)',
+                opening: 'TBC',
                 status: 'Completed but not open',
                 locationRole: 'Located in the former Old Police Academy area, this station is reserved for future residential redevelopment.',
                 interestingFact: 'Trains on the TEL currently pass through this station without stopping. It will be opened when the area is more developed.',
