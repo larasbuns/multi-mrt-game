@@ -86,6 +86,14 @@ export interface FutureStation {
         name: 'Future Infill & Reserved Stations',
         stations: [
             {
+                name: "Founders' Memorial",
+                lines: ['TE18'],
+                opening: 'TBC (Expected 2027)',
+                status: 'Under construction',
+                locationRole: 'Located near Bay East Garden, serving as a gateway to the Founders’ Memorial site.',
+                interestingFact: 'This station will provide direct MRT access to the Founders’ Memorial, commemorating Singapore’s early leaders and nation-building journey.',
+            },
+            {
                 name: 'Mount Pleasant',
                 lines: ['TE9'],
                 opening: 'TBC (When demand increases)',
