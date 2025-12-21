@@ -111,7 +111,7 @@ export interface FutureStation {
             },
             {
                 name: 'Station Code NE2',
-                lines: ['NEL'],
+                lines: ['NE2'],
                 opening: 'N/A',
                 status: 'Non-existent / Reserved Code',
                 locationRole: 'This is a reserved station code sometimes seen in long-term planning diagrams between HarbourFront (NE1) and Outram Park (NE3).',
