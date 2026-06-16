@@ -60,7 +60,7 @@ export default async function Home() {
             <Button asChild variant="secondary" size="lg">
                 <Link href="/mrt+">
                     <PlusCircle />
-                    MRT+
+                    Future Stations 
                 </Link>
             </Button>
             <p className="text-muted-foreground mt-2">
