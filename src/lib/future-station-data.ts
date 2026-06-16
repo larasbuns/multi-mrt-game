@@ -20,7 +20,7 @@ export interface FutureStation {
         {
           name: 'Keppel',
           lines: ['CC30'],
-          opening: 'First half of 2026',
+          opening: '12 July 2026',
           status: 'Under Construction',
           locationRole:
             'Underground station along Keppel Road serving the Greater Southern Waterfront area. Will improve access to the southern edge of the CBD and surrounding developments.',
@@ -30,7 +30,7 @@ export interface FutureStation {
         {
             name: 'Cantonment',
             lines: ['CC31'],
-            opening: 'Slated for 2026',
+            opening: '12 July 2026',
             status: 'Under Construction',
             locationRole:
               'Sited beneath/around the old Tanjong Pagar Railway Station area. Will serve the Greater Southern Waterfront and surrounding residential/offices.',
@@ -39,7 +39,7 @@ export interface FutureStation {
           {
             name: 'Prince Edward Road',
             lines: ['CC32'],
-            opening: 'Expected 1H 2026',
+            opening: '12 July 2026',
             status: 'Under Construction',
             locationRole:
               'Located near Shenton Way and Keppel Road intersections in the Downtown Core. Will help link southern and central business districts more directly via the Circle Line.',
